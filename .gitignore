@@ -1,8 +1,6 @@
 # JetBrains
 .idea
 
-# Packaging
-node_modules
-
-# Next.js
-.next
+# Hugo
+.hugo_build.lock
+public

@@ -1,0 +1,41 @@
+title = "Darbia"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+timeZone = "America/Chicago"
+copyright = "© 2022-present, Darbia"
+
+theme = "PaperMod"
+
+baseURL = 'https://darbia.dev/'
+enableRobotsTXT = true
+paginate = 15
+
+[params]
+description = "Darbia"
+defaultTheme = "auto"
+showReadingTime = true
+showCodeCopyButtons = true
+showPostNavLinks = true
+env = "development"
+keywords = ["oss", "foss"]
+
+# Shown on the home page
+socialIcons = [
+  { name = "github", url = "https://github.com/darbiadev" },
+]
+
+[params.schema]
+publisherType = "Person"
+sameAs = [
+  "https://github.com/darbiadev",
+]
+
+# Configure the home page
+[params.profileMode]
+enabled = true
+title = "Darbia"
+subtitle = "Friendly neighborhood integrators"
+imageUrl = "/profile-image.png"
+
+[params.assets]
+disableFingerprinting = true
